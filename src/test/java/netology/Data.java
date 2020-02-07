@@ -1,7 +1,6 @@
 package netology;
 
 import com.github.javafaker.Faker;
-import com.github.javafaker.PhoneNumber;
 
 import java.util.Calendar;
 import java.util.Date;
