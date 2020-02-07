@@ -1,6 +1,7 @@
 package netology;
 
 import com.github.javafaker.Faker;
+import com.github.javafaker.PhoneNumber;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -33,7 +34,7 @@ public class Data {
             Faker faker = new Faker(new Locale(locale));
             return new RegCardInfo(faker.address().city(),
                     faker.name().fullName(),
-                    faker.phoneNumber().toString());
+                    faker.phoneNumber().phoneNumber());
         }
     }
 }
