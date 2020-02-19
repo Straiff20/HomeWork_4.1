@@ -25,8 +25,8 @@ public class Data {
         return extendedDate.getTime();
     }
 
-    public static class Registration {
-        private Registration() {
+    public static class registration {
+        private registration() {
         }
 
         public static RegCardInfo generateByCard(String locale) {
